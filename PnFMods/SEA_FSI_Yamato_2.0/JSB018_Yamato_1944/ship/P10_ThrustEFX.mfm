@@ -1,0 +1,70 @@
+<P10_ThrustEFX.mfm>
+	<fx>	shaders/std_effects/PBS_ship_anim_emissive.fx	</fx>
+	<property>	emissivePower
+		<Float>	15.00000	</Float>
+	</property>
+	<property>	animEmissionPower
+		<Float>	15.00000	</Float>
+	</property>
+	<property>	animScale
+		<Float>	0.1	1	1	1	</Float>
+	</property>
+	<property>	maskColor1
+		<Vector4>	1	1.5	50	1	</Vector4>
+	</property>
+	<property>	maskColor2
+		<Vector4>	1	1.5	50	1	</Vector4>
+	</property>
+	<property>	maskSpeed
+		<Vector4>	0	0.3	0	0.1	</Vector4>
+	</property>
+	<property>	doubleSided
+		<Bool>	true	</Bool>
+	</property>
+	<property>	alphaTestEnable
+		<Bool>	true	</Bool>
+	</property>
+	<property>	alphaReference
+		<Int>	127	</Int>
+	</property>
+	<property>	SeaShadingQuality
+		<Bool>	false	</Bool>
+	</property>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P10_ThrustEFX_ao.dds	</Texture>
+	</property>
+	<property>	detailMap
+		<Texture>	content/gameplay/common/textures/ship_atlas_detail.dds	</Texture>
+	</property>
+	<property>	animMap
+		<Texture>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P10_ThrustEFX_anim.dds	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P10_ThrustEFX_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P10_ThrustEFX_mg.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P10_ThrustEFX_n.dds	</Texture>
+	</property>
+	<property>	g_detailAlbedoInfluence
+		<Float>	0.0000	</Float>
+	</property>
+	<property>	g_detailFadeDistance
+		<Float>	5.0000	</Float>
+	</property>
+	<property>	g_detailGlossInfluence
+		<Float>	0.0000	</Float>
+	</property>
+	<property>	g_detailNormalInfluence
+		<Float>	0.0000	</Float>
+	</property>
+	<property>	g_detailScaleU
+		<Float>	32.0000	</Float>
+	</property>
+	<property>	g_detailScaleV
+		<Float>	32.0000	</Float>
+	</property>
+</P10_ThrustEFX.mfm>
