@@ -5,7 +5,7 @@
 		<Texture>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/radar/default_ao.dds	</Texture>
 	</property>
 	<property>	detailMap
-		<Texture>	content/gameplay/common/textures/ship_atlas_detail.dds	</Texture>
+		<Texture>	content/gameplay/japan/radar/search/textures/ship_atlas_detail.dds	</Texture>
 	</property>
 	<property>	diffuseMap
 		<Texture>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/radar/JRS105_Radar_Type_22_a.dds	</Texture>

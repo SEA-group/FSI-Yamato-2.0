@@ -26,7 +26,7 @@
 			<primitiveGroup>	0
 				<material>
 					<identifier>	SHIPMATX_PBS_GunDead	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/JGA177_25mm_Type96_TSSriple_dead.mfm	</mfm>
+					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/JGA177_25mm_Type96_triple_dead.mfm	</mfm>
 				</material>
 			</primitiveGroup>
 		</geometry>

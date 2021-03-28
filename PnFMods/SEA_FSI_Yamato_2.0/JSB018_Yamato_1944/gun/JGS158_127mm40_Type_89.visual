@@ -41,15 +41,6 @@
 						<row3>	0.0000 0.1310 -0.0171 1.0000	</row3>
 					</transform>
 					<node>
-						<identifier>	HP_gunFireEffect	</identifier>
-						<transform>
-							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-							<row3>	0.0000 0.0000 0.2678 1.0000	</row3>
-						</transform>
-					</node>
-					<node>
 						<identifier>	Roll_Back1	</identifier>
 						<transform>
 							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
@@ -63,7 +54,7 @@
 								<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 								<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
 								<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-								<row3>	-0.0217 0.0000 0.0000 1.0000	</row3>
+								<row3>	-0.057 0.021 -0.062 1.0000	</row3>
 							</transform>
 						</node>
 						<node>
@@ -72,9 +63,18 @@
 								<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 								<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
 								<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-								<row3>	0.0217 0.0000 0.0000 1.0000	</row3>
+								<row3>	0.057 0.021 -0.062 1.0000	</row3>
 							</transform>
 						</node>
+					  <node>
+						  <identifier>	HP_gunFireEffect	</identifier>
+						  <transform>
+							  <row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							  <row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							  <row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							  <row3>	0.0000 0.021 -0.062 1.0000	</row3>
+						  </transform>
+					  </node>
 						<node>
 							<identifier>	Roll_Back1_BlendBone	</identifier>
 							<transform>

@@ -35,7 +35,7 @@
 		<Texture>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P10_ThrustEFX_ao.dds	</Texture>
 	</property>
 	<property>	detailMap
-		<Texture>	content/gameplay/common/textures/ship_atlas_detail.dds	</Texture>
+		<Texture>	content/gameplay/japan/ship/battleship/textures/ship_atlas_detail.dds	</Texture>
 	</property>
 	<property>	animMap
 		<Texture>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P10_ThrustEFX_anim.dds	</Texture>
