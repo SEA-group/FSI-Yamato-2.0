@@ -205,7 +205,7 @@
 			<primitive>	MidBackShape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMAT_PBS_Hull	</identifier>
+					<identifier>	SHIPMAT_PBS_Hull_P4_MidBack_bottom	</identifier>
 					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P4_MidBack_bottom.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -219,7 +219,7 @@
 			<primitive>	FSI_Light_32.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	SHIPMATX_PBS_Hull_P11_VernierThrust	</identifier>
 					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P11_VernierThrust.mfm</mfm>
 				</material>
 			</primitiveGroup>
@@ -233,7 +233,7 @@
 			<primitive>	FSI_Add_32.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	SHIPMATX_PBS_Hull_P4_MidBack_bottom_add	</identifier>
 					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P4_MidBack_bottom_add.mfm</mfm>
 				</material>
 			</primitiveGroup>
@@ -247,7 +247,7 @@
 			<primitive>	FSI_Backup_32.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	SHIPMATX_PBS_Hull_P12_Deckhouse_Light_anim	</identifier>
 					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P12_Deckhouse_Light_anim.mfm</mfm>
 				</material>
 			</primitiveGroup>
@@ -261,7 +261,7 @@
 			<primitive>	MidBack_DeckHouseShape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_DeckHouse	</identifier>
+					<identifier>	SHIPMATX_PBS_DeckHouse_P3_MF_DECK_LowDeck	</identifier>
 					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P3_MF_DECK_LowDeck.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -415,7 +415,7 @@
 			<primitive>	MidBack_hideShape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMAT_PBS_DeckHouse	</identifier>
+					<identifier>	SHIPMAT_PBS_DeckHouse_P6_Main_Deckhouse	</identifier>
 					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P6_Main_Deckhouse.mfm	</mfm>
 				</material>
 			</primitiveGroup>

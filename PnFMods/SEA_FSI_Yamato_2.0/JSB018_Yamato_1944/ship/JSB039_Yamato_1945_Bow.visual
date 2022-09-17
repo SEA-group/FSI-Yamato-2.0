@@ -124,7 +124,7 @@
 			<primitive>	BowShape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMAT_PBS_Hull	</identifier>
+					<identifier>	SHIPMAT_PBS_Hull_P1_bow	</identifier>
 					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P1_bow.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -138,7 +138,7 @@
 			<primitive>	FSI_Light_32.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	SHIPMATX_PBS_Hull_P11_VernierThrust	</identifier>
 					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P11_VernierThrust.mfm</mfm>
 				</material>
 			</primitiveGroup>
@@ -152,7 +152,7 @@
 			<primitive>	FSI_Add_32.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	SHIPMATX_PBS_Hull_P1_bow_add	</identifier>
 					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P1_bow_add.mfm</mfm>
 				</material>
 			</primitiveGroup>
@@ -166,7 +166,7 @@
 			<primitive>	FSI_Backup_32.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	SHIPMATX_PBS_Hull_P0_empty	</identifier>
 					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P0_empty.mfm</mfm>
 				</material>
 			</primitiveGroup>
@@ -180,7 +180,7 @@
 			<primitive>	Bow_DeckHouseShape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_DeckHouse	</identifier>
+					<identifier>	SHIPMATX_PBS_DeckHouse_P0_empty	</identifier>
 					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P0_empty.mfm	</mfm>
 				</material>
 			</primitiveGroup>

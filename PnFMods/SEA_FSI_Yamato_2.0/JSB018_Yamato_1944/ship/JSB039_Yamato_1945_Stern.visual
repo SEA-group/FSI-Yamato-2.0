@@ -115,7 +115,7 @@
 			<primitive>	SternShape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	SHIPMATX_PBS_Hull_P7_SternBottom	</identifier>
 					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P7_SternBottom.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -129,7 +129,7 @@
 			<primitive>	Stern_DeckHouseShape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMAT_PBS_DeckHouse	</identifier>
+					<identifier>	SHIPMAT_PBS_DeckHouse_P8_SternDeck	</identifier>
 					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P8_SternDeck.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -143,7 +143,7 @@
 			<primitive>	FSI_Light_32.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	SHIPMATX_PBS_Hull_P11_VernierThrust	</identifier>
 					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P11_VernierThrust.mfm</mfm>
 				</material>
 			</primitiveGroup>
@@ -157,7 +157,7 @@
 			<primitive>	FSI_Add_32.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	SHIPMATX_PBS_Hull_P9_MainThrust	</identifier>
 					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P9_MainThrust.mfm</mfm>
 				</material>
 			</primitiveGroup>
@@ -171,7 +171,7 @@
 			<primitive>	FSI_Backup_32.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	SHIPMATX_PBS_Hull_P0_empty	</identifier>
 					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P0_empty.mfm</mfm>
 				</material>
 			</primitiveGroup>
@@ -241,7 +241,7 @@
 			<primitive>	Stern_hideShape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	SHIPMATX_PBS_Hull_P10_ThrustEFX	</identifier>
 					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P10_ThrustEFX.mfm	</mfm>
 				</material>
 			</primitiveGroup>
