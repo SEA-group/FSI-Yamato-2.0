@@ -3,6 +3,12 @@
 	<property>	emissivePower
 		<Float>	8.00000	</Float>
 	</property>
+	<property>	emissionAnimationMode
+		<Int>	3	</Int>
+	</property>	
+	<property>	emissionColorMode
+		<Int>	2	</Int>
+	</property>
 	<collisionFlags>	0	</collisionFlags>
 	<property>	ambientOcclusionMap
 		<Texture>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P1_bow_ao.dds	</Texture>
