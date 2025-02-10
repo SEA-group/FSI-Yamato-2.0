@@ -1,7 +1,6 @@
 <JGS156_155mm_60_Type3_dead.model>
-	<castsShadow>	true	</castsShadow>
-	<parent>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/lods/JGS156_155mm_60_Type3_dead_lod1	</parent>
-	<extent>	300.0000	</extent>
-	<nodefullVisual>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/JGS156_155mm_60_Type3_dead	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
+	<visual>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/JGS156_155mm_60_Type3_dead.visual	</visual>
+	<animations />
+	<dyes />
+	<metaData>	Wargaming.net	</metaData>
 </JGS156_155mm_60_Type3_dead.model>

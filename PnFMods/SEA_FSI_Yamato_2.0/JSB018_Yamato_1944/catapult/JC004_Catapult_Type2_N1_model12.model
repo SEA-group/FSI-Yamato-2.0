@@ -1,7 +1,6 @@
 <JC004_Catapult_Type2_N1_model12.model>
-	<castsShadow>	true	</castsShadow>
-	<parent>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/catapult/lods/JC004_Catapult_Type2_N1_model12_lod1	</parent>
-	<extent>	3.0000	</extent>
-	<nodefullVisual>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/catapult/JC004_Catapult_Type2_N1_model12	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
+	<visual>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/catapult/JC004_Catapult_Type2_N1_model12.visual	</visual>
+	<animations />
+	<dyes />
+	<metaData>	Wargaming.net	</metaData>
 </JC004_Catapult_Type2_N1_model12.model>

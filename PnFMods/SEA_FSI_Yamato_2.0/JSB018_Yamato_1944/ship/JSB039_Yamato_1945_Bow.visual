@@ -1,14 +1,7 @@
 <JSB039_Yamato_1945_Bow.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	Bow	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
 				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -16,43 +9,7 @@
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	Bow_DeckHouse	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	Bow_light	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	Bow_Add	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	Bow_Backup	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	Bow_crack_MidFront	</identifier>
+				<identifier>	Bow	</identifier>
 				<transform>
 					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -60,34 +17,97 @@
 					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
 				<node>
-					<identifier>	Bow_crack_MidFront_DeckHouse	</identifier>
+					<identifier>	Bow_DeckHouse	</identifier>
 					<transform>
 						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
 						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
 						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 					</transform>
+				</node>
+			    <node>
+				    <identifier>	Bow_light	</identifier>
+				    <transform>
+					    <row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					    <row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					    <row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					    <row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				    </transform>
+			    </node>
+			    <node>
+				    <identifier>	Bow_Add	</identifier>
+				    <transform>
+					    <row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					    <row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					    <row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					    <row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				    </transform>
+			    </node>
+			    <node>
+				    <identifier>	Bow_Backup	</identifier>
+				    <transform>
+					    <row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					    <row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					    <row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					    <row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				    </transform>
+			    </node>
+				<node>
+					<identifier>	Bow_crack_MidFront	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bow_crack_MidFront_DeckHouse	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Bow_crack_MidFront_in	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+						</transform>
+					</node>
 				</node>
 				<node>
-					<identifier>	Bow_crack_MidFront_in	</identifier>
+					<identifier>	Bow_patch_MidFront	</identifier>
 					<transform>
 						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
 						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
 						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 					</transform>
+					<node>
+						<identifier>	Bow_patch_MidFront_DeckHouse	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Bow_patch_MidFront_wire	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+						</transform>
+					</node>
 				</node>
-			</node>
-			<node>
-				<identifier>	Bow_patch_MidFront	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
 				<node>
-					<identifier>	Bow_patch_MidFront_DeckHouse	</identifier>
+					<identifier>	Bow_wire	</identifier>
 					<transform>
 						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -95,197 +115,433 @@
 						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 					</transform>
 				</node>
-				<node>
-					<identifier>	Bow_patch_MidFront_wire	</identifier>
-					<transform>
-						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-					</transform>
-				</node>
-			</node>
-			<node>
-				<identifier>	Bow_wire	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
 			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow	</node>
-		<geometry>
-			<vertices>	BowShape.vertices	</vertices>
-			<primitive>	BowShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMAT_PBS_Hull_P1_bow	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P1_bow.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-  <renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow_light	</node>
-		<geometry>
-			<vertices>	FSI_Light_32.vertices	</vertices>
-			<primitive>	FSI_Light_32.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Hull_P11_VernierThrust	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P11_VernierThrust.mfm</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-  <renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow_Add	</node>
-		<geometry>
-			<vertices>	FSI_Add_32.vertices	</vertices>
-			<primitive>	FSI_Add_32.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Hull_P1_bow_add	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P1_bow_add.mfm</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-  <renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow_Backup	</node>
-		<geometry>
-			<vertices>	FSI_Backup_32.vertices	</vertices>
-			<primitive>	FSI_Backup_32.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Hull_P0_empty	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P0_empty.mfm</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow_DeckHouse	</node>
-		<geometry>
-			<vertices>	Bow_DeckHouseShape.vertices	</vertices>
-			<primitive>	Bow_DeckHouseShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_DeckHouse_P0_empty	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P0_empty.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow_crack_MidFront	</node>
-		<geometry>
-			<vertices>	Bow_crack_MidFrontShape.vertices	</vertices>
-			<primitive>	Bow_crack_MidFrontShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow_crack_MidFront_DeckHouse	</node>
-		<geometry>
-			<vertices>	Bow_crack_MidFront_DeckHouseShape.vertices	</vertices>
-			<primitive>	Bow_crack_MidFront_DeckHouseShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_DeckHouse	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_DeckHouse.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow_crack_MidFront_in	</node>
-		<geometry>
-			<vertices>	Bow_crack_MidFront_inShape.vertices	</vertices>
-			<primitive>	Bow_crack_MidFront_inShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Crack	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/C002_Razlom.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow_patch_MidFront	</node>
-		<geometry>
-			<vertices>	Bow_patch_MidFrontShape.vertices	</vertices>
-			<primitive>	Bow_patch_MidFrontShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow_patch_MidFront_DeckHouse	</node>
-		<geometry>
-			<vertices>	Bow_patch_MidFront_DeckHouseShape.vertices	</vertices>
-			<primitive>	Bow_patch_MidFront_DeckHouseShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_DeckHouse	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow_patch_MidFront_wire	</node>
-		<geometry>
-			<vertices>	Bow_patch_MidFront_wireShape.vertices	</vertices>
-			<primitive>	Bow_patch_MidFront_wireShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPWIRE_PBS_Hull	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull_wire.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow_wire	</node>
-		<geometry>
-			<vertices>	Bow_wireShape.vertices	</vertices>
-			<primitive>	Bow_wireShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPWIRE_PBS_Hull	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull_wire.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
-		<min>	-1.1868 -0.7475 -0.5237	</min>
-		<max>	1.1868 2.4004 8.9421	</max>
+		<min>	-1.1862 -0.7471 -0.5234	</min>
+		<max>	1.1862 2.3992 8.9376	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	BowShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Hull_P1_bow	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P1_bow.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_DeckHouseShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_DeckHouse_P0_empty	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P0_empty.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_DeckHouse_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_DeckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_DeckHouse_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_DeckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_DeckHouse_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_DeckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFrontShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_DeckHouseShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_DeckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_DeckHouse_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_DeckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_DeckHouse_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_DeckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_DeckHouse_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_DeckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_inShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Crack	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_in_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Crack	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_in_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Crack	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_in_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Crack	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFrontShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFront_DeckHouseShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_DeckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFront_DeckHouse_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_DeckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFront_DeckHouse_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_DeckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFront_DeckHouse_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_DeckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFront_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFront_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFront_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFront_wireShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront_wire	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPWIRE_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFront_wire_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront_wire	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPWIRE_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFront_wire_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront_wire	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPWIRE_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_wireShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_wire	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPWIRE_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_wire_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_wire	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPWIRE_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	FSI_Light_32	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_light	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull_P11_VernierThrust	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P11_VernierThrust.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	FSI_Add_32	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_Add	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull_P1_bow_add	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P1_bow_add.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	FSI_Backup_32	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_Backup	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull_P0_empty	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P0_empty.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	400.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	BowShape	</renderSet>
+				<renderSet>	Bow_DeckHouseShape	</renderSet>
+				<renderSet>	Bow_crack_MidFrontShape	</renderSet>
+				<renderSet>	Bow_crack_MidFront_DeckHouseShape	</renderSet>
+				<renderSet>	Bow_crack_MidFront_inShape	</renderSet>
+				<renderSet>	Bow_patch_MidFrontShape	</renderSet>
+				<renderSet>	Bow_patch_MidFront_DeckHouseShape	</renderSet>
+				<renderSet>	Bow_patch_MidFront_wireShape	</renderSet>
+				<renderSet>	Bow_wireShape	</renderSet>
+				<renderSet>	FSI_Light_32	</renderSet>
+				<renderSet>	FSI_Add_32	</renderSet>
+				<renderSet>	FSI_Backup_32	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </JSB039_Yamato_1945_Bow.visual>

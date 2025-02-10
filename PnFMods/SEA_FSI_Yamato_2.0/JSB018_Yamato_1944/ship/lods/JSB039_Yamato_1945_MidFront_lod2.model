@@ -1,7 +1,0 @@
-<JSB039_Yamato_1945_MidFront_lod2.model>
-	<castsShadow>	true	</castsShadow>
-	<parent>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/lods/JSB039_Yamato_1945_MidFront_lod3	</parent>
-	<extent>	80.0000	</extent>
-	<nodefullVisual>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_MidFront	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
-</JSB039_Yamato_1945_MidFront_lod2.model>

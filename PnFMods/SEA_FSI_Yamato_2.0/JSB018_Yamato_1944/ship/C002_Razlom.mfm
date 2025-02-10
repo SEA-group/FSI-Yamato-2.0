@@ -5,7 +5,7 @@
 		<Texture>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/default_ao.dds	</Texture>
 	</property>
 	<property>	detailMap
-		<Texture>	content/gameplay/japan/ship/battleship/textures/ship_atlas_detail.dds	</Texture>
+		<Texture>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/ship_atlas_detail.dds	</Texture>
 	</property>
 	<property>	diffuseMap
 		<Texture>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/C002_Razlom_a.dds	</Texture>

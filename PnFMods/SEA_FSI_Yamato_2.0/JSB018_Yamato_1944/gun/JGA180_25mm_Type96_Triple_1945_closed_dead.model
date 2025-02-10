@@ -1,7 +1,6 @@
 <JGA180_25mm_Type96_Triple_1945_closed_dead.model>
-	<castsShadow>	false	</castsShadow>
-	<parent>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/lods/JGA180_25mm_Type96_Triple_1945_closed_dead_lod1	</parent>
-	<extent>	4.0000	</extent>
-	<nodefullVisual>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/JGA180_25mm_Type96_Triple_1945_closed_dead	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
+	<visual>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/JGA180_25mm_Type96_Triple_1945_closed_dead.visual	</visual>
+	<animations />
+	<dyes />
+	<metaData>	Wargaming.net	</metaData>
 </JGA180_25mm_Type96_Triple_1945_closed_dead.model>

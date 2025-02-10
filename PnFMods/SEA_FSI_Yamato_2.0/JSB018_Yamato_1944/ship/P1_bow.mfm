@@ -17,21 +17,21 @@
 		<Texture>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P1_bow_n.dds	</Texture>
 	</property>
 	<property>	g_detailAlbedoInfluence
-		<Float>	0.0000	</Float>
+		<Float>	0	</Float>
 	</property>
 	<property>	g_detailFadeDistance
-		<Float>	5.0000	</Float>
+		<Float>	0	</Float>
 	</property>
 	<property>	g_detailGlossInfluence
-		<Float>	0.0000	</Float>
+		<Float>	0	</Float>
 	</property>
 	<property>	g_detailNormalInfluence
-		<Float>	0.0000	</Float>
+		<Float>	0	</Float>
 	</property>
 	<property>	g_detailScaleU
-		<Float>	32.0000	</Float>
+		<Float>	0	</Float>
 	</property>
 	<property>	g_detailScaleV
-		<Float>	32.0000	</Float>
+		<Float>	0	</Float>
 	</property>
 </P1_bow.mfm>

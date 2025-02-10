@@ -7,7 +7,4 @@
 	<property>	metallicGlossMap
 		<Texture>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/JGA177_25mm_Type96_Triple_mg.dds	</Texture>
 	</property>
-	<property>	normalMap
-		<Texture>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/JGA177_25mm_Type96_Triple_n.dds	</Texture>
-	</property>
 </JGA177_25mm_Type96_Triple_wire.mfm>

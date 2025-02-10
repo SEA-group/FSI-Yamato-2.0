@@ -1,7 +1,6 @@
 <JGA179_25mm_Type96_Triple_closed.model>
-	<castsShadow>	false	</castsShadow>
-	<parent>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/lods/JGA179_25mm_Type96_Triple_closed_lod1	</parent>
-	<extent>	400.0000	</extent>
-	<nodefullVisual>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/JGA179_25mm_Type96_Triple_closed	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
+	<visual>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/JGA179_25mm_Type96_Triple_closed.visual	</visual>
+	<animations />
+	<dyes />
+	<metaData>	Wargaming.net	</metaData>
 </JGA179_25mm_Type96_Triple_closed.model>

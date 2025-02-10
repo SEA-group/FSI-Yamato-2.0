@@ -1,7 +1,0 @@
-<JD099_Director_Type_98_10m_lod2.model>
-	<castsShadow>	false	</castsShadow>
-	<parent>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/director/lods/JD099_Director_Type_98_10m_lod3	</parent>
-	<extent>	25.0000	</extent>
-	<nodefullVisual>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/director/lods/JD099_Director_Type_98_10m_lod2	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
-</JD099_Director_Type_98_10m_lod2.model>

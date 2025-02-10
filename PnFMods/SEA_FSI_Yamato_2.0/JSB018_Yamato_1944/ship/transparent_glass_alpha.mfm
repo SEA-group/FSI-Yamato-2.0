@@ -2,9 +2,6 @@
 	<fx>	shaders/materials/pbs/glass_material.fx	</fx>
 	<collisionFlags>	0	</collisionFlags>
 	<property>	diffuseMap
-		<Texture>	content/gameplay/japan/ship/battleship/textures/transparent_glass_alpha_a.dds	</Texture>
-	</property>
-	<property>	doubleSided
-		<Bool>	true	</Bool>
+		<Texture>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/transparent_glass_alpha_a.dds	</Texture>
 	</property>
 </transparent_glass_alpha.mfm>

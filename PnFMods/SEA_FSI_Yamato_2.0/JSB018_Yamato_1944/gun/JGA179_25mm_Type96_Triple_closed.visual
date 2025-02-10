@@ -1,14 +1,7 @@
 <JGA179_25mm_Type96_Triple_closed.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	Turret	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
 				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -16,82 +9,135 @@
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	HP_gunFire1	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 0.8660 -0.5000 0.0000	</row1>
-					<row2>	0.0000 0.5000 0.8660 0.0000	</row2>
-					<row3>	0.0430 0.1180 0.1130 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	HP_gunFire2	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 0.8660 -0.5000 0.0000	</row1>
-					<row2>	0.0000 0.5000 0.8660 0.0000	</row2>
-					<row3>	-0.0430 0.1180 0.1130 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	HP_gunFire3	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 0.8660 -0.5000 0.0000	</row1>
-					<row2>	0.0000 0.5000 0.8660 0.0000	</row2>
-					<row3>	0.0430 0.1440 0.100 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	HP_gunFireEffect	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 0.8660 -0.5000 0.0000	</row1>
-					<row2>	0.0000 0.5000 0.8660 0.0000	</row2>
-					<row3>	0.0430 0.1180 0.1130 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	wire	</identifier>
+				<identifier>	Turret	</identifier>
 				<transform>
 					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
 					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
 					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
+				<node>
+					<identifier>	HP_gunFire1	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 0.8660 -0.5000 0.0000	</row1>
+						<row2>	0.0000 0.5000 0.8660 0.0000	</row2>
+						<row3>	0.0186 0.0943 0.0952 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_gunFire2	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 0.8660 -0.5000 0.0000	</row1>
+						<row2>	0.0000 0.5000 0.8660 0.0000	</row2>
+						<row3>	0.0000 0.0943 0.0952 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_gunFire3	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 0.8660 -0.5000 0.0000	</row1>
+						<row2>	0.0000 0.5000 0.8660 0.0000	</row2>
+						<row3>	-0.0184 0.0943 0.0952 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	wire	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
 			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Turret	</node>
-		<geometry>
-			<vertices>	TurretShape.vertices	</vertices>
-			<primitive>	TurretShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Gun	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/JGA172_25mm_Type96_Triple.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	wire	</node>
-		<geometry>
-			<vertices>	wireShape.vertices	</vertices>
-			<primitive>	wireShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPWIRE_PBS_Gun	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/JGA172_25mm_Type96_Triple_wire.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
-		<min>	-0.1201 -0.0195 -0.1228	</min>
-		<max>	0.1201 0.1855 0.1864	</max>
+		<min>	-0.1200 -0.0195 -0.1227	</min>
+		<max>	0.1200 0.1854 0.1863	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	TurretShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Turret	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Gun	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/JGA177_25mm_Type96_Triple.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Turret_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Turret	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Gun	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/JGA172_25mm_Type96_Triple.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Turret_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Turret	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Gun	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/JGA172_25mm_Type96_Triple.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Turret_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Turret	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Gun	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/JGA172_25mm_Type96_Triple.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	wireShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	wire	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPWIRE_PBS_Gun	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/JGA172_25mm_Type96_Triple_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	wire_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	wire	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPWIRE_PBS_Gun	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/JGA172_25mm_Type96_Triple_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	80.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	TurretShape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </JGA179_25mm_Type96_Triple_closed.visual>

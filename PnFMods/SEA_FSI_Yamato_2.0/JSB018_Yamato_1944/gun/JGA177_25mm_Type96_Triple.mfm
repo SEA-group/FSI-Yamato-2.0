@@ -4,6 +4,9 @@
 	<property>	ambientOcclusionMap
 		<Texture>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/default_ao.dds	</Texture>
 	</property>
+	<property>	detailMap
+		<Texture>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/ship_atlas_detail.dds	</Texture>
+	</property>
 	<property>	diffuseMap
 		<Texture>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/JGA177_25mm_Type96_Triple_a.dds	</Texture>
 	</property>
@@ -13,25 +16,22 @@
 	<property>	normalMap
 		<Texture>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/JGA177_25mm_Type96_Triple_n.dds	</Texture>
 	</property>
-	<property>	detailMap
-		<Texture>	content/gameplay/japan/gun/aaircraft/textures/ship_atlas_detail.dds	</Texture>
-	</property>
 	<property>	g_detailAlbedoInfluence
-		<Float>	0.000000	</Float>
-	</property>
-	<property>	g_detailGlossInfluence
-		<Float>	0.000000	</Float>
-	</property>
-	<property>	g_detailNormalInfluence
-		<Float>	0.000000	</Float>
+		<Float>	0.0000	</Float>
 	</property>
 	<property>	g_detailFadeDistance
-		<Float>	3.000000	</Float>
+		<Float>	0.0000	</Float>
+	</property>
+	<property>	g_detailGlossInfluence
+		<Float>	0.0000	</Float>
+	</property>
+	<property>	g_detailNormalInfluence
+		<Float>	0.0000	</Float>
 	</property>
 	<property>	g_detailScaleU
-		<Float>	2.000000	</Float>
+		<Float>	0.0000	</Float>
 	</property>
 	<property>	g_detailScaleV
-		<Float>	2.000000	</Float>
+		<Float>	0.0000	</Float>
 	</property>
 </JGA177_25mm_Type96_Triple.mfm>

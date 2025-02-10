@@ -1,14 +1,7 @@
 <JSB039_Yamato_1945_Stern.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	Stern	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
 				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -16,52 +9,7 @@
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	Stern_DeckHouse	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	Stern_light	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	Stern_Add	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	Stern_Backup	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	Stern_Net	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	Stern_crack_MidBack	</identifier>
+				<identifier>	Stern	</identifier>
 				<transform>
 					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -69,7 +17,7 @@
 					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
 				<node>
-					<identifier>	Stern_crack_MidBack_DeckHouse	</identifier>
+					<identifier>	Stern_DeckHouse	</identifier>
 					<transform>
 						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -78,7 +26,7 @@
 					</transform>
 				</node>
 				<node>
-					<identifier>	Stern_crack_MidBack_in	</identifier>
+					<identifier>	Stern_Net	</identifier>
 					<transform>
 						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -86,183 +34,438 @@
 						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 					</transform>
 				</node>
-			</node>
-			<node>
-				<identifier>	Stern_hide	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	Stern_wire	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
+				<node>
+					<identifier>	Stern_crack_MidBack	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	Stern_crack_MidBack_DeckHouse	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Stern_crack_MidBack_in	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Stern_hide	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Stern_wire	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+			    <node>
+				    <identifier>	Stern_light	</identifier>
+				    <transform>
+					    <row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					    <row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					    <row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					    <row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				    </transform>
+			    </node>
+			    <node>
+				    <identifier>	Stern_Add	</identifier>
+				    <transform>
+					    <row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					    <row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					    <row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					    <row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				    </transform>
+			    </node>
+			    <node>
+				    <identifier>	Stern_Backup	</identifier>
+				    <transform>
+					    <row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					    <row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					    <row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					    <row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				    </transform>
+			    </node>
 			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Stern	</node>
-		<geometry>
-			<vertices>	SternShape.vertices	</vertices>
-			<primitive>	SternShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Hull_P7_SternBottom	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P7_SternBottom.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Stern_DeckHouse	</node>
-		<geometry>
-			<vertices>	Stern_DeckHouseShape.vertices	</vertices>
-			<primitive>	Stern_DeckHouseShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMAT_PBS_DeckHouse_P8_SternDeck	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P8_SternDeck.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-  <renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Stern_light	</node>
-		<geometry>
-			<vertices>	FSI_Light_32.vertices	</vertices>
-			<primitive>	FSI_Light_32.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Hull_P11_VernierThrust	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P11_VernierThrust.mfm</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-  <renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Stern_Add	</node>
-		<geometry>
-			<vertices>	FSI_Add_32.vertices	</vertices>
-			<primitive>	FSI_Add_32.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Hull_P9_MainThrust	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P9_MainThrust.mfm</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-  <renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Stern_Backup	</node>
-		<geometry>
-			<vertices>	FSI_Backup_32.vertices	</vertices>
-			<primitive>	FSI_Backup_32.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Hull_P0_empty	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P0_empty.mfm</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Stern_Net	</node>
-		<geometry>
-			<vertices>	Stern_NetShape.vertices	</vertices>
-			<primitive>	Stern_NetShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	GRID_Misc	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/C011_Grid_9_alpha.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Stern_crack_MidBack	</node>
-		<geometry>
-			<vertices>	Stern_crack_MidBackShape.vertices	</vertices>
-			<primitive>	Stern_crack_MidBackShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Stern_crack_MidBack_DeckHouse	</node>
-		<geometry>
-			<vertices>	Stern_crack_MidBack_DeckHouseShape.vertices	</vertices>
-			<primitive>	Stern_crack_MidBack_DeckHouseShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_DeckHouse	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_DeckHouse.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Stern_crack_MidBack_in	</node>
-		<geometry>
-			<vertices>	Stern_crack_MidBack_inShape.vertices	</vertices>
-			<primitive>	Stern_crack_MidBack_inShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Crack	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/C002_Razlom.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Stern_hide	</node>
-		<geometry>
-			<vertices>	Stern_hideShape.vertices	</vertices>
-			<primitive>	Stern_hideShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Hull_P10_ThrustEFX	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P10_ThrustEFX.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Stern_wire	</node>
-		<geometry>
-			<vertices>	Stern_wireShape.vertices	</vertices>
-			<primitive>	Stern_wireShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPWIRE_PBS_Hull	</identifier>
-					<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull_wire.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
-		<min>	-1.3189 -0.7402 -8.7077	</min>
-		<max>	1.3047 1.0951 -3.4819	</max>
+		<min>	-1.3182 -0.7398 -8.7033	</min>
+		<max>	1.3040 1.0946 -3.4802	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	SternShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull_P7_SternBottom	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P7_SternBottom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_DeckHouseShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_DeckHouse_P8_SternDeck	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P8_SternDeck.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_DeckHouse_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_DeckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_DeckHouse_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_DeckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_DeckHouse_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_DeckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_NetShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_Net	</node>
+			</nodes>
+			<material>
+				<identifier>	GRID_Misc	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/C011_Grid_9_alpha.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_Net_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_Net	</node>
+			</nodes>
+			<material>
+				<identifier>	GRID_Misc	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/C011_Grid_9_alpha.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_crack_MidBackShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_crack_MidBack	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_crack_MidBack_DeckHouseShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_crack_MidBack_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_DeckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_crack_MidBack_DeckHouse_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_crack_MidBack_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_DeckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_crack_MidBack_DeckHouse_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_crack_MidBack_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_DeckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_crack_MidBack_DeckHouse_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_crack_MidBack_DeckHouse	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_DeckHouse	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_DeckHouse.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_crack_MidBack_inShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_crack_MidBack_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Crack	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_crack_MidBack_in_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_crack_MidBack_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Crack	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_crack_MidBack_in_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_crack_MidBack_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Crack	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_crack_MidBack_in_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_crack_MidBack_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Crack	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_crack_MidBack_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_crack_MidBack	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_crack_MidBack_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_crack_MidBack	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_crack_MidBack_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_crack_MidBack	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_hideShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_hide	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull_P10_ThrustEFX	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P10_ThrustEFX.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_hide_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_hide	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_hide_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_hide	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_wireShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_wire	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPWIRE_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_wire_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_wire	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPWIRE_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Hull_wire.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	FSI_Light_32	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_light	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull_P11_VernierThrust	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P11_VernierThrust.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	FSI_Add_32	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_Add	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull_P9_MainThrust	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P9_MainThrust.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	FSI_Backup_32	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_Backup	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull_P0_empty	</identifier>
+				<mfm>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/P0_empty.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	400.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	SternShape	</renderSet>
+				<renderSet>	Stern_DeckHouseShape	</renderSet>
+				<renderSet>	Stern_NetShape	</renderSet>
+				<renderSet>	Stern_crack_MidBackShape	</renderSet>
+				<renderSet>	Stern_crack_MidBack_DeckHouseShape	</renderSet>
+				<renderSet>	Stern_crack_MidBack_inShape	</renderSet>
+				<renderSet>	Stern_hideShape	</renderSet>
+				<renderSet>	Stern_wireShape	</renderSet>
+				<renderSet>	FSI_Light_32	</renderSet>
+				<renderSet>	FSI_Add_32	</renderSet>
+				<renderSet>	FSI_Backup_32	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </JSB039_Yamato_1945_Stern.visual>

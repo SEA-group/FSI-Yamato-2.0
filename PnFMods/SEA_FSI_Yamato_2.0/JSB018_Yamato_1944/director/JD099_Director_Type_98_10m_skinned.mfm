@@ -1,37 +1,37 @@
 <JD099_Director_Type_98_10m_skinned.mfm>
-	<fx>	shaders/std_effects/PBS_ship_skinned.fx	</fx>
+	<fx>	shaders/materials/pbs/ship_material_skinned.fx	</fx>
 	<collisionFlags>	0	</collisionFlags>
 	<property>	ambientOcclusionMap
-		<Texture>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/director/Director98_ao.dds	</Texture>
+		<Texture>	PnFMods/SEA_FSI_Satsuma/JSB111_Satsuma/director/Director98_ao.dds	</Texture>
 	</property>
 	<property>	detailMap
-		<Texture>	content/gameplay/japan/director/textures/ship_atlas_detail.dds	</Texture>
+		<Texture>	content/gameplay/common/textures/ship_atlas_detail.dds	</Texture>
 	</property>
 	<property>	diffuseMap
-		<Texture>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/director/Director98_a.dds	</Texture>
+		<Texture>	PnFMods/SEA_FSI_Satsuma/JSB111_Satsuma/director/Director98_a.dds	</Texture>
 	</property>
 	<property>	metallicGlossMap
-		<Texture>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/director/Director98_mg.dds	</Texture>
+		<Texture>	PnFMods/SEA_FSI_Satsuma/JSB111_Satsuma/director/Director98_mg.dds	</Texture>
 	</property>
 	<property>	normalMap
-		<Texture>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/director/Director98_n.dds	</Texture>
+		<Texture>	PnFMods/SEA_FSI_Satsuma/JSB111_Satsuma/director/Director98_n.dds	</Texture>
 	</property>
 	<property>	g_detailAlbedoInfluence
-		<Float>	0.0000	</Float>
+		<Float>	0.6000	</Float>
 	</property>
 	<property>	g_detailFadeDistance
 		<Float>	3.0000	</Float>
 	</property>
 	<property>	g_detailGlossInfluence
-		<Float>	0.0000	</Float>
+		<Float>	1.0000	</Float>
 	</property>
 	<property>	g_detailNormalInfluence
-		<Float>	0.0000	</Float>
+		<Float>	0.4000	</Float>
 	</property>
 	<property>	g_detailScaleU
-		<Float>	4.0000	</Float>
+		<Float>	8.0000	</Float>
 	</property>
 	<property>	g_detailScaleV
-		<Float>	2.0000	</Float>
+		<Float>	4.0000	</Float>
 	</property>
 </JD099_Director_Type_98_10m_skinned.mfm>

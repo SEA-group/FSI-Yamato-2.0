@@ -3,12 +3,6 @@
 	<property>	emissivePower
 		<Float>	5.00000	</Float>
 	</property>
-	<property>	emissionAnimationMode
-		<Int>	3	</Int>
-	</property>	
-	<property>	emissionColorMode
-		<Int>	2	</Int>
-	</property>
 	<property>	animEmissionPower
 		<Float>	5.00000	</Float>
 	</property>
@@ -53,7 +47,7 @@
 		<Float>	0.0000	</Float>
 	</property>
 	<property>	g_detailFadeDistance
-		<Float>	5.0000	</Float>
+		<Float>	0.0000	</Float>
 	</property>
 	<property>	g_detailGlossInfluence
 		<Float>	0.0000	</Float>
@@ -62,9 +56,9 @@
 		<Float>	0.0000	</Float>
 	</property>
 	<property>	g_detailScaleU
-		<Float>	32.0000	</Float>
+		<Float>	0.0000	</Float>
 	</property>
 	<property>	g_detailScaleV
-		<Float>	32.0000	</Float>
+		<Float>	0.0000	</Float>
 	</property>
 </P2_Midfront_add.mfm>
