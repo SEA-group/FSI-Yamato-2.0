@@ -1,6 +1,7 @@
 <JC004_Catapult_Type2_N1_model12.model>
 	<visual>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/catapult/JC004_Catapult_Type2_N1_model12.visual	</visual>
-	<animations />
-	<dyes />
+	<animations/>
+	<dyes/>
+	<skeletonExtenders/>
 	<metaData>	Wargaming.net	</metaData>
 </JC004_Catapult_Type2_N1_model12.model>

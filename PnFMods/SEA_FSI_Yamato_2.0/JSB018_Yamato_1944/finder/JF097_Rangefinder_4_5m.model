@@ -1,6 +1,7 @@
 <JF097_Rangefinder_4_5m.model>
 	<visual>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/finder/JF097_Rangefinder_4_5m.visual	</visual>
-	<animations />
-	<dyes />
+	<animations/>
+	<dyes/>
+	<skeletonExtenders/>
 	<metaData>	Wargaming.net	</metaData>
 </JF097_Rangefinder_4_5m.model>

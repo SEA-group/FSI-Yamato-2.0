@@ -1,6 +1,7 @@
 <JGA179_25mm_Type96_Triple_closed.model>
 	<visual>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/JGA179_25mm_Type96_Triple_closed.visual	</visual>
-	<animations />
-	<dyes />
+	<animations/>
+	<dyes/>
+	<skeletonExtenders/>
 	<metaData>	Wargaming.net	</metaData>
 </JGA179_25mm_Type96_Triple_closed.model>

@@ -1,6 +1,7 @@
 <JAB707_Kawanishi_H6K5.model>
 	<visual>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/aircraft/JAB707_Kawanishi_H6K5.visual	</visual>
-	<animations />
-	<dyes />
+	<animations/>
+	<dyes/>
+	<skeletonExtenders/>
 	<metaData>	Wargaming.net	</metaData>
 </JAB707_Kawanishi_H6K5.model>

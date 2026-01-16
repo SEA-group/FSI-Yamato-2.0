@@ -118,7 +118,7 @@
 		<lod>
 			<extent>	400.0000	</extent>
 			<castsShadow>	true	</castsShadow>
-			<renderSets />
+			<renderSets/>
 		</lod>
 		<lod>
 			<extent>	1000.0000	</extent>

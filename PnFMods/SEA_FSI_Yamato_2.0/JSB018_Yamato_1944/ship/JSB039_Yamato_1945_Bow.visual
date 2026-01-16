@@ -25,33 +25,33 @@
 						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 					</transform>
 				</node>
-			    <node>
-				    <identifier>	Bow_light	</identifier>
-				    <transform>
-					    <row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					    <row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					    <row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					    <row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				    </transform>
-			    </node>
-			    <node>
-				    <identifier>	Bow_Add	</identifier>
-				    <transform>
-					    <row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					    <row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					    <row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					    <row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				    </transform>
-			    </node>
-			    <node>
-				    <identifier>	Bow_Backup	</identifier>
-				    <transform>
-					    <row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					    <row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					    <row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					    <row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				    </transform>
-			    </node>
+				<node>
+					<identifier>	Bow_light	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Bow_Add	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Bow_Backup	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
 				<node>
 					<identifier>	Bow_crack_MidFront	</identifier>
 					<transform>
@@ -113,6 +113,24 @@
 						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
 						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
 						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_JGM_1	</identifier>
+					<transform>
+						<row0>	0.9000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 0.9000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 0.9000 0.0000	</row2>
+						<row3>	0.0000 0.4751 3.7176 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_Ship_death_1	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 5.1298 1.0000	</row3>
 					</transform>
 				</node>
 			</node>

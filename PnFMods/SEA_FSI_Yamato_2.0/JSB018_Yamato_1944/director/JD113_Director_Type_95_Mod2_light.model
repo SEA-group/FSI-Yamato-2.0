@@ -1,6 +1,7 @@
 <JD113_Director_Type_95_Mod2_light.model>
 	<visual>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/director/JD113_Director_Type_95_Mod2_light.visual	</visual>
-	<animations />
-	<dyes />
+	<animations/>
+	<dyes/>
+	<skeletonExtenders/>
 	<metaData>	Wargaming.net	</metaData>
 </JD113_Director_Type_95_Mod2_light.model>

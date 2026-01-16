@@ -49,60 +49,60 @@
 								<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
 								<row3>	0.0000 0.0054 0.4855 1.0000	</row3>
 							</transform>
-						    <node>
-							    <identifier>	HP_gunFire1	</identifier>
-							    <transform>
-								    <row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-								    <row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-								    <row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-								    <row3>	0.068 0.010 0.057 1.0000	</row3>
-							    </transform>
-						    </node>
-						    <node>
-							    <identifier>	HP_gunFire2	</identifier>
-							    <transform>
-								    <row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-								    <row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-								    <row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-								    <row3>	0.0000 0.010 0.057 1.0000	</row3>
-							    </transform>
-						    </node>
-						    <node>
-							    <identifier>	HP_gunFire3	</identifier>
-							    <transform>
-								    <row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-								    <row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-								    <row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-								    <row3>	-0.068 0.010 0.057 1.0000	</row3>
-							    </transform>
-						    </node>
-						    <node>
-							    <identifier>	HP_gunFire4	</identifier>
-							    <transform>
-								    <row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-								    <row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-								    <row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-								    <row3>	0.068 0.010 0.057 1.0000	</row3>
-							    </transform>
-						    </node>
-						    <node>
-							    <identifier>	HP_gunFire5	</identifier>
-							    <transform>
-								    <row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-								    <row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-								    <row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-								    <row3>	0.0000 0.010 0.057 1.0000	</row3>
-							    </transform>
-						    </node>
-						    <node>
-							    <identifier>	HP_gunFire6	</identifier>
-							    <transform>
-								    <row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-								    <row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-								    <row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-								    <row3>	-0.068 0.010 0.057 1.0000	</row3>
-							    </transform>
-						    </node>
+							<node>
+								<identifier>	HP_gunFire1	</identifier>
+								<transform>
+									<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+									<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+									<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+									<row3>	0.068 0.010 0.057 1.0000	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	HP_gunFire2	</identifier>
+								<transform>
+									<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+									<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+									<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+									<row3>	0.0000 0.010 0.057 1.0000	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	HP_gunFire3	</identifier>
+								<transform>
+									<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+									<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+									<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+									<row3>	-0.068 0.010 0.057 1.0000	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	HP_gunFire4	</identifier>
+								<transform>
+									<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+									<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+									<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+									<row3>	0.068 0.010 0.057 1.0000	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	HP_gunFire5	</identifier>
+								<transform>
+									<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+									<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+									<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+									<row3>	0.0000 0.010 0.057 1.0000	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	HP_gunFire6	</identifier>
+								<transform>
+									<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+									<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+									<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+									<row3>	-0.068 0.010 0.057 1.0000	</row3>
+								</transform>
+							</node>
 							<node>
 								<identifier>	HP_gunFireEffect	</identifier>
 								<transform>

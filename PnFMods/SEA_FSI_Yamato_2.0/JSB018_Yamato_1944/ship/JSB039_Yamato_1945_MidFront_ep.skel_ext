@@ -1,0 +1,103 @@
+<JSB039_Yamato_1945_MidFront_ep.skel_ext>
+	<exported>	false	</exported>
+	<node>
+		<identifier>	EP_Death_2	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.2890 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_Fire_2	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.824 0.502 1.86 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_Fire_2_side_1	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	-0.8979 0.535 0.717 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_FloodLight_left_1	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+			<row3>	-0.297 0.805 1.326 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_FloodLight_right_2	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.297 0.805 1.326 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_Flood_steam_left	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+			<row3>	-0.79 0.155 4.711 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_Flood_water_left_3	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_Flood_water_right_3	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_RepairLight_left_1	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	0.0900 0.0000 0.9959 0.0000	</row0>
+			<row1>	-0.0087 1.0000 0.0008 0.0000	</row1>
+			<row2>	-0.9959 -0.0087 0.0900 0.0000	</row2>
+			<row3>	-0.539 0.516 2.293 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_RepairLight_right_1	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	0.0901 0.0000 -0.9959 0.0000	</row0>
+			<row1>	0.0039 1.0000 0.0004 0.0000	</row1>
+			<row2>	0.9959 -0.0039 0.0901 0.0000	</row2>
+			<row3>	0.417 0.458 3.176 1.0000	</row3>
+		</transform>
+	</node>
+</JSB039_Yamato_1945_MidFront_ep.skel_ext>

@@ -1,6 +1,7 @@
 <JD099_Director_Type_98_10m.model>
 	<visual>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/director/JD099_Director_Type_98_10m.visual	</visual>
-	<animations />
-	<dyes />
+	<animations/>
+	<dyes/>
+	<skeletonExtenders/>
 	<metaData>	Wargaming.net	</metaData>
 </JD099_Director_Type_98_10m.model>

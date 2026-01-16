@@ -1,6 +1,7 @@
 <JGS157_127mm40_Type89_Mod_A.model>
 	<visual>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/gun/JGS157_127mm40_Type89_Mod_A.visual	</visual>
-	<animations />
-	<dyes />
+	<animations/>
+	<dyes/>
+	<skeletonExtenders/>
 	<metaData>	Wargaming.net	</metaData>
 </JGS157_127mm40_Type89_Mod_A.model>

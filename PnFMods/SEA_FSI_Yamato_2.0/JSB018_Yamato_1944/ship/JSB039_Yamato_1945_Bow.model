@@ -1,6 +1,9 @@
 <JSB039_Yamato_1945_Bow.model>
 	<visual>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Bow.visual	</visual>
-	<animations />
-	<dyes />
+	<animations/>
+	<dyes/>
+	<skeletonExtenders>
+		<skeletonExtender>	PnFMods/SEA_FSI_Yamato_2.0/JSB018_Yamato_1944/ship/JSB039_Yamato_1945_Bow_ep.skel_ext	</skeletonExtender>
+	</skeletonExtenders>
 	<metaData>	Wargaming.net	</metaData>
 </JSB039_Yamato_1945_Bow.model>

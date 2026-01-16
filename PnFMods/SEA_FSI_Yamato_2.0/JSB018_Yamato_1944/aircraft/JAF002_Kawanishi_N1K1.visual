@@ -16,24 +16,24 @@
 					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
 					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
-			    <node>
-				    <identifier>	chassis_off_BlendBone	</identifier>
-				    <transform>
-					    <row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					    <row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					    <row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					    <row3>	0.000000 0.000000 0.000000 1.000000	</row3>
-				    </transform>
-			    </node>
-			    <node>
-				    <identifier>	chassis_on_BlendBone	</identifier>
-				    <transform>
-					    <row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					    <row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					    <row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					    <row3>	0.000000 0.000000 0.000000 1.000000	</row3>
-				    </transform>
-			    </node>
+				<node>
+					<identifier>	chassis_off_BlendBone	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+						<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	chassis_on_BlendBone	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+						<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+					</transform>
+				</node>
 				<node>
 					<identifier>	HP_Air_gunfire_1	</identifier>
 					<transform>

@@ -1,0 +1,183 @@
+<JSB039_Yamato_1945_MidBack_ep.skel_ext>
+	<exported>	false	</exported>
+	<node>
+		<identifier>	EP_Fire_3	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 1.1063 -1.8078 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_Fire_3_side_1	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	-0.7720 0.5820 -2.5740 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_Fire_3_side_2	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	1.0550 0.5810 -0.6560 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_Fire_5	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 1.2208 -0.2907 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_Fire_5_1	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 1.2171 -0.6775 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_FloodLight_left_2	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_FloodLight_right_1	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_Flood_steam_1	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	0.9663 0.1105 0.2326 0.0000	</row0>
+			<row1>	0.0000 0.9033 -0.4290 0.0000	</row1>
+			<row2>	-0.2575 0.4145 0.8729 0.0000	</row2>
+			<row3>	0.252 1.284 -1.188 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_Flood_steam_2	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	0.9710 0.0000 -0.2389 0.0000	</row0>
+			<row1>	-0.1212 0.8618 -0.4926 0.0000	</row1>
+			<row2>	0.2059 0.5072 0.8369 0.0000	</row2>
+			<row3>	-1.445 0.168 -2.658 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_Flood_steam_exhaust_1	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	0.3145 -0.2979 0.9013 0.0000	</row0>
+			<row1>	0.0000 0.9495 0.3139 0.0000	</row1>
+			<row2>	-0.9493 -0.0987 0.2986 0.0000	</row2>
+			<row3>	0.0510 1.756 -1.164 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_Flood_steam_exhaust_2	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 0.9690 0.2473 0.0000	</row1>
+			<row2>	0.0000 -0.2473 0.9690 0.0000	</row2>
+			<row3>	-0.0570 1.701 -1.256 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_Flood_steam_right	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	1.47 0.136 -2.911 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_Flood_water_left_1	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_Flood_water_left_2	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_Flood_water_right_1	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_Flood_water_right_2	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_Smoke_1	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 1.8280 -1.2575 1.0000	</row3>
+		</transform>
+	</node>
+	<node>
+		<identifier>	EP_Smoke_2	</identifier>
+		<parent>	Scene Root	</parent>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 1.8036 -1.3947 1.0000	</row3>
+		</transform>
+	</node>
+</JSB039_Yamato_1945_MidBack_ep.skel_ext>
